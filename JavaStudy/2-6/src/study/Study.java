@@ -28,7 +28,7 @@ public class Study {
 
         // 問② 「(Calendar.MONTH) + 数値」の処理は、想定していない値となる可能性があります。
         // その理由をコメントへ記述してください。
-        // [繰り上げや繰り下げの対応をしたい場合、またはうるう年の場合ずれが生じるため。]
+        // [繰り上げや繰り下げ対応する場合、getメソッドだと単純に月の値+1となってしまう為ずれが生じてしまう。勝手に加算減算してくれるものでは無い。]
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
