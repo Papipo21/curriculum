@@ -32,7 +32,7 @@ public class Study {
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * [LinkedHashMapクラスのインスタンスを変数shopMapにて保持。putメソッドで要素の追加を行う。]
+         * [LinkedHashMapクラスのインスタンスを変数shopMapにて保持。putメソッドで要素の追加（牛乳, 180)を行う。]
          *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
